@@ -41,10 +41,10 @@ en: &DEFAULT_EN
         icon: fas fa-rocket
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+    title: "Memberships"
+    text: "Interested in signing up? Come along to one of our Open Days on the first Thursday of every month and chat to one of our core members"
+    section: memberships
+    closebutton: "Close details"
 
   timeline:
     title: "Timeline"
