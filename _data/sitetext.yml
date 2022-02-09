@@ -11,25 +11,34 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome To Make Monmouth!
     text: It's Nice To Meet You
-    button: Tell Me More
+    button: Tell me more
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Who are we?"
+    text: "Open to anyone over the age of 18, Make Monmouth is a space where you can create, design, tinker, and hack on your projects in the company of like-minded people."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Equipment Access"
+        desc: |
+          Gain access to tools that you've always wanted to use.
+
+          From multimeters and sewing machines to 3D printers and laser cutters we hope to eventually provide all the tools you need to finish that dream project
+        icon: fas fa-toolbox #find more at https://fontawesome.com/icons
+      - title: "Meet Others"
+        desc: |
+          Deep down, all makers are geeks.
+
+          We want to provide a shared space in which folks from all walks of life can create in their own style, whilst meeting other people who understand the passion to build thing regardless of the medium used
+        icon: fas fa-comments
+      - title: "Build Amazing Things"
+        desc: |
+          It doesn't matter what you do, just be creative!
+
+          Previous meetings have included everything from furniture painting and restoration works through to Artificial Intelligence and Robots. It doesn't matter what you make, or how you make it, we'll find room for you to express yourself
+        icon: fas fa-rocket
 
   portfolio:
     title: "Portfolio"
