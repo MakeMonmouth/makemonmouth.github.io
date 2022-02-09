@@ -1,5 +1,7 @@
 ---
 title: Make Monmouth
+layout: home
+header-image: assets/img/header-bg.jpg
 ---
 
 Welcome to the website for Make Monmouth - we're a group set up by people who like to make stuff (from crafts to computers, 
