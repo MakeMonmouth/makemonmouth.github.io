@@ -24,7 +24,7 @@ author     : Make Monmouth
 locale: "en-GB" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: "G-4D14L44C5V"
 
 collections:
   portfolio:
