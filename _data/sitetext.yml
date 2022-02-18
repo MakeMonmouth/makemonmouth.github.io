@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         desc: |
           Deep down, all makers are geeks.
 
-          We want to provide a shared space in which folks from all walks of life can create in their own style, whilst meeting other people who understand the passion to build thing regardless of the medium used
+          We want to provide a shared space in which folks from all walks of life can create in their own style, whilst meeting other people who understand the passion to build things regardless of the medium used
         icon: fas fa-comments
       - title: "Build Amazing Things"
         desc: |
