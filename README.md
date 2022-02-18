@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Make Monmouth Website
 
-You can use the [editor on GitHub](https://github.com/owenniblock/make-monmouth/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo holds the code for the Make Monmouth website.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It uses Github Pages and Jekyll, and content is rendered using [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Markdown
+## Local Development
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To make changes to the site and test your changes, you'll want to follow [these instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
-```markdown
-Syntax highlighted code block
+After you've done that, you'll want to run `bundle install` in this directory to install the dependencies.
 
-# Header 1
-## Header 2
-### Header 3
+Now [create a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) to work on (this gives you a "copy" of the code that you can make changes to without affecting anyone else).
 
-- Bulleted
-- List
+Once you have everything installed, run `bundle exec jekyll serve` from the command line, and then visit [http://localhost:4000](http://localhost:4000) in a browser.
 
-1. Numbered
-2. List
+Any changes you make will automatically be reloaded and published.
 
-**Bold** and _Italic_ and `Code` text
+Once you're happy with what you've written, follow the instructions to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and one of the website editors will get a notification that there's code for them to review.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/owenniblock/make-monmouth/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Once your code has been reviewed, approved, and merged, it will appear on the website within a few minutes!
