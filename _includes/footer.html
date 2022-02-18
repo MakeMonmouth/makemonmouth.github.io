@@ -49,4 +49,45 @@
   }
 </script>
 {% endif %}
+<script>
+function getNextDayOfWeek(date, dayOfWeek) {
+    var resultDate = new Date(date.getTime());
+    resultDate.setDate(date.getDate() + (7 + dayOfWeek - date.getDay()) % 7);
+    return resultDate;
+}
+
+function getThursdays(date) {
+	let thursdays = []
+    let datePosition = new Date(date.getTime())
+	datePosition.setDate(1)
+    
+    for (let i = 0; i < 3; i++) {
+  		datePosition = getNextDayOfWeek(datePosition, 3)
+        thursdays.push(datePosition)
+        datePosition.setDate(datePosition.getDate() + 1)
+	}
+    
+    return thursdays
+}
+
+let today = new Date()
+let next_event = today
+
+let thursdays = getThursdays(today)
+
+if (thursdays[2] < today) {
+	let newDate = new Date()
+    newDate.setMonth(newDate.getMonth() + 1)
+	thursdays = getThursdays(newDate)
+}
+
+if (thursdays[0] > today) {
+	next_event = thursdays[0]
+} else {
+	next_event = thursdays[2]
+}
+
+let formatted_date = next_event.toLocaleDateString('en-gb', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) 
+document.getElementById('next_meeting').innerHTML = `Join us for our next event: ${formatted_date}, 8pm to 10pm`;
+</script>
 <!-- End Footer -->
