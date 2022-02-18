@@ -1,13 +1,13 @@
 ---
 title: Core Membership
-subtitle: On Application
-image: assets/img/portfolio/01-full.jpg
+subtitle: An Elected Role
+image: assets/img/portfolio/paintbrush.jpg
 alt: 
 
 caption:
   title: Core Membership
-  subtitle: On Application
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  subtitle: An Elected Role
+  thumbnail: assets/img/portfolio/paintbrush.jpg
 ---
 Core Members are responsible for the day-to-day running of the group
 

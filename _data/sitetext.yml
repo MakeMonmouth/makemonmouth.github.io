@@ -140,7 +140,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Email <a href='mailto:info@makemonmouth.co.uk'>info@makemonmouth.co.uk</a> or come along to one of our open evenings."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

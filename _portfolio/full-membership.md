@@ -1,13 +1,13 @@
 ---
 title: Full memberships
 subtitle: £10/month
-image: assets/img/portfolio/01-full.jpg
+image: assets/img/portfolio/sewing.jpg
 alt: 
 
 caption:
   title: Full Membership
   subtitle: £10/month
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  thumbnail: assets/img/portfolio/sewing.jpg
 ---
 Full members get all of the privileges below, with more to come as we improve our space and facilities.
 
