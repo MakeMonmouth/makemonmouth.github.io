@@ -154,7 +154,7 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Policies and Procedures"
     social:
       - url: https://twitter.com/makemonmouth
         icon: "fab fa-twitter"
