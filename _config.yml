@@ -13,13 +13,16 @@
 
 #remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://makemonmouth.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://www.makemonmouth.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : Make Monmouth
 email      : info@makemonmouth.co.uk #this is also the email contact forms will go to
 description: "Open to anyone over the age of 18, Make Monmouth is a space where you can create, design, tinker, and hack on your projects in the company of like-minded people."
 author     : Make Monmouth
+
+logo:
+  path: /assets/img/logo.png
 
 locale: "en-GB" # See available languages in _data/sitetext.yml
 
