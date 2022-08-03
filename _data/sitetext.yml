@@ -25,7 +25,7 @@ en: &DEFAULT_EN
         desc: |
           Gain access to tools that you've always wanted to use.
 
-          We already have soldering irons, screwdrivers, cutting mats, and even a 3D printer, and we're looking to add more tools all the time!
+          We already have [soldering irons, screwdrivers, cutting mats, and even a 3D printer](https://docs.makemonmouth.co.uk/equipment/), and we're looking to add more tools all the time!
         icon: fas fa-toolbox #find more at https://fontawesome.com/icons
       - title: "Meet Others"
         desc: |
