@@ -25,7 +25,7 @@ en: &DEFAULT_EN
         desc: |
           Gain access to tools that you've always wanted to use.
 
-          From multimeters and sewing machines to 3D printers and laser cutters we hope to eventually provide all the tools you need to finish that dream project
+          We already have soldering irons, screwdrivers, cutting mats, and even a 3D printer, and we're looking to add more tools all the time!
         icon: fas fa-toolbox #find more at https://fontawesome.com/icons
       - title: "Meet Others"
         desc: |
