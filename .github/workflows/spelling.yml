@@ -15,3 +15,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: rojopolis/spellcheck-github-actions@0.25.0
         name: Spelling Checker
+        with:
+          config_path: .pyspelling.yml
