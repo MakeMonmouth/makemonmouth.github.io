@@ -1,8 +1,8 @@
 # Make Monmouth Website
 
-This repo holds the code for the Make Monmouth website.
+This repository holds the code for the Make Monmouth website.
 
-It uses Github Pages and Jekyll, and content is rendered using [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+It uses Github Pages and Jekyll, and content is rendered using [GitHub Flavoured Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ## Local Development
 
