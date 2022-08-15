@@ -9,6 +9,7 @@
       {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
+        width="{{ site.logo.width | default: 141 }}"
         src="{{ site.logo.path }}"
       />
       {%- else -%} {{ site.title }} {%- endif -%}
