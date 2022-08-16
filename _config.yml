@@ -22,7 +22,7 @@ description: "Open to anyone over the age of 18, Make Monmouth is a space where 
 author     : Make Monmouth
 
 logo:
-  path: /assets/img/logo.png
+  path: /assets/img/header-logo.png
 
 locale: "en-GB" # See available languages in _data/sitetext.yml
 
