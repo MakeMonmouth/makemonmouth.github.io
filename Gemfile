@@ -34,3 +34,5 @@ gem "jekyll-agency", "~> 1.0"
 gem "jekyll-remote-theme", "~> 0.4.3"
 
 gem "webrick", "~> 1.7"
+
+gem "jekyll-sitemap"
