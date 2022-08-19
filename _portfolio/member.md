@@ -5,7 +5,7 @@ image: assets/img/portfolio/sewing.jpg
 alt: 
 
 caption:
-  title:  Membership
+  title:  Member
   subtitle: £10/month
   thumbnail: assets/img/portfolio/sewing.jpg
 ---
