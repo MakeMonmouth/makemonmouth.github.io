@@ -1,11 +1,11 @@
 ---
-title: Core Membership
+title: Core Team
 subtitle: An Elected Role
 image: assets/img/portfolio/paintbrush.jpg
 alt: 
 
 caption:
-  title: Core Membership
+  title: Core Team
   subtitle: An Elected Role
   thumbnail: assets/img/portfolio/paintbrush.jpg
 ---
