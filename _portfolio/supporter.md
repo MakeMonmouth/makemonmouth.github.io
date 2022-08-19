@@ -13,7 +13,7 @@ Supporters get all of the privileges below, with more to come as we improve our 
 
 
 {:.list-inline}
-- Access to the space on "Open Nights" and one member night of your choosing each month ⃰
+- Access to the space on "Open Nights" and one member night of your choosing each month¹
 - Able to vote on SOME issues relating to management of the space and Make Monmouth CIC
 - Can request storage space such as shelves/cupboards to keep long-running projects
 
