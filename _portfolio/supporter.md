@@ -19,4 +19,4 @@ Supporters get all of the privileges below, with more to come as we improve our 
 
 
 {:.address}
-⃰The night you attend can be any of our member nights and does not have to be the same one each month
+¹The night you attend can be any of our member nights and does not have to be the same one each month
