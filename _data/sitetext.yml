@@ -42,7 +42,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Memberships"
-    text: "Interested in signing up? Come along to one of our Open Days on the first Thursday of every month and chat to one of our core members"
+    text: "Interested in signing up? Come along to one of our Open Days on the first Tuesday of every month and chat to one of our core members"
     section: memberships
     closebutton: "Close details"
 

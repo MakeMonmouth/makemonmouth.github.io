@@ -56,35 +56,35 @@ function getNextDayOfWeek(date, dayOfWeek) {
     return resultDate;
 }
 
-function getThursdays(date) {
-	let thursdays = []
+function getTuesdays(date) {
+	let tuesdays = []
     let datePosition = new Date(date.getTime())
 	datePosition.setDate(1)
     
     for (let i = 0; i < 3; i++) {
-  		datePosition = getNextDayOfWeek(datePosition, 3)
-        thursdays.push(datePosition)
+  		datePosition = getNextDayOfWeek(datePosition, 1)
+        tuesdays.push(datePosition)
         datePosition.setDate(datePosition.getDate() + 1)
 	}
     
-    return thursdays
+    return tuesdays
 }
 
 let today = new Date()
 let next_event = today
 
-let thursdays = getThursdays(today)
+let tuesdays = getTuesdays(today)
 
-if (thursdays[2] < today) {
+if (tuesdays[2] < today) {
 	let newDate = new Date()
     newDate.setMonth(newDate.getMonth() + 1)
-	thursdays = getThursdays(newDate)
+	tuesdays = getTuesdays(newDate)
 }
 
-if (thursdays[0] > today) {
-	next_event = thursdays[0]
+if (tuesdays[0] > today) {
+	next_event = tuesdays[0]
 } else {
-	next_event = thursdays[2]
+	next_event = tuesdays[2]
 }
 
 let formatted_date = next_event.toLocaleDateString('en-gb', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) 
