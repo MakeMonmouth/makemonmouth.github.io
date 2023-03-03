@@ -158,7 +158,7 @@ en: &DEFAULT_EN
     social:
       - url: https://twitter.com/makemonmouth
         icon: "fab fa-twitter"
-      - url: https://www.facebook.com/groups/744382199302587/
+      - url: https://facebook.com/groups/makemonmouth
         icon: "fab fa-facebook-f"
       - url: https://github.com/MakeMonmouth
         icon: "fab fa-github"
